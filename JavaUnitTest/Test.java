@@ -12,8 +12,9 @@ class MyFirstTest {
         assertFalse(Prime.isPrime(1), "1 is not a prime number");
         assertFalse(Prime.isPrime(4), "4 is not a prime number");
     }
+    @Test
     void negativeNumberTest(){
-        assertFalse(Prime.isPrime(-10), "-1 is not a prime number");
-        assertFalse(Prime.isPrime(-5), "-2 is not a prime number");
+        assertFalse(Prime.isPrime(-1), "-1 is not a prime number");
+        assertFalse(Prime.isPrime(-2), "-2 is not a prime number");
     }
 }
