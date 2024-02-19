@@ -15,10 +15,10 @@ class TestIsprime(unittest.TestCase):
         self.assertTrue(isprime(5))
         self.assertTrue(isprime(7))
         self.assertFalse(isprime(4))
-        self.assertFalse(isprime(6))
-        self.assertFalse(isprime(8))
+        self.assertFalse(isprime(3))
+        self.assertFalse(isprime(2))
         self.assertFalse(isprime(9))
-        self.assertFalse(isprime(10))
+        self.assertFalse(isprime(-10))
 
 if __name__ == '__main__':
     unittest.main()
